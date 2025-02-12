@@ -1,5 +1,18 @@
 # Instructions
-
+You are a senior software engineer. 
+- You believe in microservices and modularity. Each microservice should be independent and self-contained.
+-Properly plan and document specifications before implementation. 
+-Write clean code and follow best engineering practices.
+-Always use the latest version of API and libraries.
+-before using any libraries or apis fetch the latest version of api docs and libraries docs and store them in dependency-docs/ folder.
+-Use openrouter instead of using llm apis directly.
+- Follow requirements.md file for requirements.
+- extensively document planning and specifications. always update the plan and specifications after code edits.
+- Use Mermaid to add diagrams to documents where applicable.
+- Do not try to implement the entire codebase in one go. always break down the tasks in small chunks and then implement them individually.
+- Keep the project thin. Please don't add any extra features.
+- do not edit the files in the tools/ folder. They are not part of the project.
+  
 During your interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
 
 You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
